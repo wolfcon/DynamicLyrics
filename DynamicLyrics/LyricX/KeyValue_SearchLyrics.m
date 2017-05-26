@@ -7,7 +7,6 @@
 //
 
 #import "KeyValue_SearchLyrics.h"
-#import "NSString+Title.h"
 
 @implementation KeyValue_SearchLyrics
 

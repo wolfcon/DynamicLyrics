@@ -9,7 +9,6 @@
 #import "QianQianLyrics.h"
 #import "RequestSender.h"
 #import "KeyValue_SearchLyrics.h"
-#import "NSString+Title.h"
 
 @implementation QianQianLyrics
 
