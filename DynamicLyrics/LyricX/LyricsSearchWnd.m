@@ -23,7 +23,7 @@
     if (self){
         if (!title)
             return self;
-        self.SongTitle = [title getRidOfUnusedIndexNumber];
+        self.SongTitle = title;
         self.SongArtist = artist;
         self.window.level = NSFloatingWindowLevel;
         [self.window makeKeyAndOrderFront:self];

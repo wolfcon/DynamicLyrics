@@ -155,7 +155,7 @@
 - (void) SearchBestLyrics
 {
     @autoreleasepool {
-        NSString *SongTitle = [[iTunesCurrentTrack name] getRidOfUnusedIndexNumber];
+        NSString *SongTitle = [iTunesCurrentTrack name];
         NSString *SongArtist = [iTunesCurrentTrack artist];
     
         GB_BIG_Converter* _convertManager = [[GB_BIG_Converter alloc] init];
